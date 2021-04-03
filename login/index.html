@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Vinyl - Log In</title>
+    <link rel="shortcut icon" type="image/png" href="../resources/logo/favicon.png"> <!-- Set site icon/favicon  -->
+    <link rel="stylesheet" href="../css/default.css">
+    <link rel="stylesheet" href="../css/login-register.css"> <!-- Link to style/css file -->
+    <script type="text/javascript"> // Load header into the page
+      fetch("../default/header.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("header").innerHTML = data;
+      });
+    </script>
+  </head>
+  <body>
+    <header></header>
+    <div align="center"> <!-- Start of login form -->
+      <form class="login-form" action="login.php" method="post">
+        <img src="../resources/logo/logo_white_large.png" class="login-image"> <!-- Login form image -->
+        <label class="login-label" for="uname"><b>Username</b></label>
+        <input maxlength="50" class="login-input" type="text" placeholder="Enter Username" name="uname" required>
+        <br><br>
+        <label class="login-label" for="psw"><b>Password</b></label>
+        <input maxlength="50" class="login-input" type="password" placeholder="Enter Password" name="psw" required>
+        <br><br>
+        <button class="login-button" type="submit">Login </button>
+        <br>
+        <a href="password-reset.html" class="password-reset-link">Can't remember your password?</a>
+        <br><br>
+        <a href="../register/"><button type="button" name="button" class="login-button">Don't have an account?</button></a>
+      </form>
+      <br>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Vinyl - Download</title>
+    <link rel="shortcut icon" type="image/png" href="../resources/logo/favicon.png"> <!-- Set site icon/favicon  -->
+    <link rel="stylesheet" href="../css/default.css">
+    <link rel="stylesheet" href="../css/download.css"> <!-- Link to style/css file -->
+    <script type="text/javascript"> // Load header into the page
+      fetch("../default/header.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("header").innerHTML = data;
+      });
+    </script>
+  </head>
+  <body>
+    <header></header>
+    <br><br><br> <br> <br> <br>
+    <br>Downloads will be available soon!
+  </body>
+</html>

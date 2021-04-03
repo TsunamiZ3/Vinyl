@@ -1,0 +1,56 @@
+/*About text box*/
+.about-text {
+  margin-top: 15%;
+  text-align: center;
+  font-size: 25px;
+  background: #274690;
+  color: #F5F3F5;
+  border: 5px solid #F5F3F5;
+  border-radius: 15px;
+  width: 700px;
+  height: 120px;
+  padding: 10px 10px 10px 10px;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box; /* Firefox */
+  -webkit-box-sizing:border-box; /* Safari */
+}
+/*Email contact button*/
+.email-button {
+  background-color: #274690;
+  color: #F5F3F5;
+  border-radius: 10px;
+  border: 3px solid #F5F3F5;
+  padding: 2px 3px 2px 3px;
+  font-size: 25px;
+  font-weight: bold;
+  transition: all 0.5s;
+}
+/*Email contact button hover*/
+.email-button:hover {
+  background-color: #1b264f;
+  color: #F5F3F5;
+  border-radius: 10px;
+  border: 3px solid #F5F3F5;
+  padding: 2px 3px 2px 3px;
+  font-size: 25px;
+}
+/*Instagram account link button*/
+.instagram-button {
+  background-color: #274690;
+  color: #F5F3F5;
+  border-radius: 10px;
+  border: 3px solid #F5F3F5;
+  padding: 2px 3px 2px 3px;
+  font-size: 25px;
+  font-weight: bold;
+  transition: all 0.5s;
+}
+/*Instagram account link button hover*/
+.instagram-button:hover {
+  background-color: #1b264f;
+  color: #F5F3F5;
+  border-radius: 10px;
+  border: 3px solid #F5F3F5;
+  padding: 2px 3px 2px 3px;
+  font-size: 25px;
+}

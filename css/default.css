@@ -1,0 +1,114 @@
+/**************************HEADER**************************/
+.header {
+  background-color: #274690;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: #F5F3F5;
+  font-family: Monaco, monospace;
+  font-size: 20px;
+  /*vertical-align: middle;*/
+}
+/*Header logo*/
+.header img {
+  width: 200px;
+  margin-left: 15px;
+  height: auto;
+}
+/*Header generic button style*/
+.header-button {
+  background-color: #274690;
+  color: #F5F3F5;
+  border-radius: 10px;
+  border: 3px solid #F5F3F5;
+  padding: 3px 4px 3px 4px;
+  font-size: 25px;
+  font-weight: bold;
+  transition: all 0.5s;
+}
+/*Header generic button style hover*/
+.header-button:hover {
+  background-color: #1b264f;
+  color: #F5F3F5;
+  border-radius: 10px;
+  border: 3px solid #1b264f;
+  padding: 3px 4px 3px 4px;
+  font-size: 25px;
+}
+/*Header login and register link*/
+#header-login-link {
+  position: absolute;
+  top: 25%;
+  right: 15px;
+}
+/*Header about/info link*/
+#header-about-link {
+  position: absolute;
+  top: 25%;
+  right: 250px;
+}
+/*Header download link*/
+#header-download-link {
+  position: absolute;
+  top: 25%;
+  right: 370px;
+}
+
+/**************************BODY**************************/
+
+body {
+  background-color: #1b264f;
+}
+
+/*default buttons*/
+/*Default button in style*/
+.default-button {
+  background-color: #F5F3F5;
+  color: #302B27;
+  border-radius: 10px;
+  border: 3px solid #302B27;
+  padding: 2px 3px 2px 3px;
+  font-size: 25px;
+  font-weight: bold;
+  transition: all 0.5s;
+}
+/*Default button style hover*/
+.default-button:hover {
+  background-color: #1b264f;
+  color: #F5F3F5;
+  border-radius: 10px;
+  border: 3px solid #1b264f;
+  padding: 2px 3px 2px 3px;
+  font-size: 25px;
+}
+
+/**************************FOOTER**************************/
+.footer {
+  background-color: #274690;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  color: #F5F3F5;
+  font-family: Monaco, monospace;
+  font-size: 20px;
+}
+
+.player {
+  vertical-align: middle;
+  background-color: #274690;
+  width: 96%;
+  left: 2%;
+  height: 70%;
+  top: 15%;
+  position: relative;
+  border: 2px solid white;
+}
+
+.player img {
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+}

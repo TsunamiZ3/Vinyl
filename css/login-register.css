@@ -1,0 +1,72 @@
+/*Login form/box/container*/
+.login-form {
+  margin-top: 15%;
+  text-align: center;
+  /*vertical-align: middle;*/
+  font-size: 25px;
+  background: #274690;
+  border: 5px solid #F5F3F5;
+  border-radius: 15px;
+  font-family: Monaco, monospace;
+  width: 500px;
+  height: 500px;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box; /* Firefox */
+  -webkit-box-sizing:border-box; /* Safari */
+}
+/*Login box image*/
+.login-image {
+  width: 400px;
+  height: auto;
+}
+/*Login box site logo*/
+.login-label {
+  background-color: #F5F3F5;
+  color: #302B27;
+  border-radius: 10px;
+  border: 3px solid #302B27;
+  padding: 4px 5px 4px 5px;
+}
+/*Login box textbox/input*/
+.login-input {
+  background-color: #F5F3F5;
+  color: #302B27;
+  border-radius: 10px;
+  border: 3px solid #302B27;
+  padding: 2px 3px 2px 3px;
+  font-size: 25px;
+}
+/*Login/register button in form style*/
+.login-button {
+  background-color: #F5F3F5;
+  color: #302B27;
+  border-radius: 10px;
+  border: 3px solid #302B27;
+  padding: 2px 3px 2px 3px;
+  font-size: 25px;
+  font-weight: bold;
+  transition: all 0.5s;
+}
+/*Login/register button in form style hover*/
+.login-button:hover {
+  background-color: #1b264f;
+  color: #F5F3F5;
+  border-radius: 10px;
+  border: 3px solid #1b264f;
+  padding: 2px 3px 2px 3px;
+  font-size: 25px;
+}
+/*login form password reset/forgot password link*/
+.password-reset-link {
+  color: #F5F3F5;
+  font-size: 15px;
+  padding: 4px 5px 4px 5px;
+  transition: all 0.5s;
+}
+/*login form password reset/forgot password link hover*/
+.password-reset-link:hover {
+  color: #302B27;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 4px 5px 4px 5px;
+}
