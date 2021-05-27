@@ -1,14 +1,26 @@
+/*Divs Container*/
+.container {
+  display: flex;
+}
+/*Left Div block Style*/
+.left-div {
+  width: 50%;
+}
+/*Rigth Div block Style*/
+.right-div {
+  width: 50%;
+}
 /*About text box*/
 .about-text {
-  margin-top: 15%;
+  margin-top: 5%;
   text-align: center;
   font-size: 25px;
-  background: #274690;
+  background: #6F2027;
   color: #F5F3F5;
-  border: 5px solid #F5F3F5;
+  border: 5px solid #F2AF29;
   border-radius: 15px;
   width: 700px;
-  height: 120px;
+  height: 225px;
   padding: 10px 10px 10px 10px;
   box-sizing:border-box;
   -moz-box-sizing:border-box; /* Firefox */
@@ -16,43 +28,102 @@
 }
 /*Email contact button*/
 .email-button {
-  background-color: #274690;
-  color: #F5F3F5;
+  background-color: #6F2027;
+  color: #F2AF29;
   border-radius: 10px;
-  border: 3px solid #F5F3F5;
+  border: 3px solid #F2AF29;
   padding: 2px 3px 2px 3px;
   font-size: 25px;
   font-weight: bold;
   transition: all 0.5s;
   margin-right: 10px;
+  cursor: pointer;
+  padding: 4px 4px 4px 4px;
 }
 /*Email contact button hover*/
 .email-button:hover {
-  background-color: #1b264f;
-  color: #F5F3F5;
+  background-color: #D3BCBE;
+  color: #6F2027;
   border-radius: 10px;
-  border: 3px solid #F5F3F5;
+  border: 3px solid #F2AF29;
   padding: 2px 3px 2px 3px;
   font-size: 30px;
+  cursor: pointer;
 }
-/*Instagram account link button*/
-.instagram-button {
-  background-color: #274690;
-  color: #F5F3F5;
+/*Phone button*/
+.phone-button{
+  background-color: #6F2027;
+  color: #F2AF29;
   border-radius: 10px;
-  border: 3px solid #F5F3F5;
+  border: 3px solid #F2AF29;
+  padding: 2px 3px 2px 3px;
+  font-size: 25px;
+  font-weight: bold;
+  transition: all 0.5s;
+  /* margin-left: 5px; */
+  cursor: pointer;
+  padding: 4px 4px 4px 4px;
+}
+/*Phone button hover*/
+.phone-button:hover {
+  background-color: #D3BCBE;
+  color: #6F2027;
+  border-radius: 10px;
+  border: 3px solid #F2AF29;
+  padding: 2px 3px 2px 3px;
+  font-size: 35px;
+  cursor: pointer;
+}
+/*Facebook account link button*/
+.instagram-button {
+  background-color: #6F2027;
+  color: #F2AF29;
+  border-radius: 10px;
+  border: 3px solid #F2AF29;
   padding: 2px 3px 2px 3px;
   font-size: 25px;
   font-weight: bold;
   transition: all 0.5s;
   margin-left: 10px;
+  cursor: pointer;
+  padding: 4px 4px 4px 4px;
 }
-/*Instagram account link button hover*/
+/*Facebook account link button hover*/
 .instagram-button:hover {
-  background-color: #1b264f;
-  color: #F5F3F5;
+  background-color: #D3BCBE;
+  color: #6F2027;
   border-radius: 10px;
-  border: 3px solid #F5F3F5;
+  border: 3px solid #F2AF29;
   padding: 2px 3px 2px 3px;
   font-size: 30px;
+  cursor: pointer;
+}
+/*About us Image Style*/
+.about-img {
+  width: 700px;
+  height: auto;
+  border: 5px solid #F2AF29;
+  border-radius: 15px;
+}
+/*Place Image Style*/
+.where-img {
+  width: 700px;
+  height: auto;
+  border: 5px solid #F2AF29;
+  border-radius: 15px;
+}
+/*Google Maps frame*/
+#map-frame {
+  width: 700px;
+  height: 700px;
+  border-radius: 15px;
+  border: 5px solid #F2AF29;
+  align: center;
+}
+/*Vieni a trovarci Label*/
+#vat-label {
+  width: 250px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  align-self: center;
 }

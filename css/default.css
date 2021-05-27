@@ -1,6 +1,6 @@
 /**************************HEADER**************************/
 .header {
-  background-color: #274690;
+  background-color: #6F2027;
   width: 100%;
   position: fixed;
   top: 0;
@@ -12,80 +12,95 @@
 }
 /*Header logo*/
 .header img {
-  width: 200px;
+  width: 300px;
   margin-top: 4px;
   margin-left: 15px;
   height: auto;
-  border: 3px solid #F5F3F5;
+  border: 3px solid #F2AF29;
   padding: 0px 8px 0px 4px;
   border-radius: 15px;
+  cursor: pointer;
 }
 /*Header generic button style*/
 .header-button {
-  background-color: #274690;
-  color: #F5F3F5;
+  background-color: #6F2027;
+  color: #F2AF29;
   border-radius: 10px;
-  border: 3px solid #F5F3F5;
-  padding: 3px 4px 3px 4px;
+  border: 3px solid #F2AF29;
+  padding: 5px 4px 5px 4px;
   font-size: 25px;
   font-weight: bold;
   transition: all 0.5s;
+  cursor: pointer;
 }
 /*Header generic button style hover*/
 .header-button:hover {
-  background-color: #1b264f;
-  color: #F5F3F5;
+  background-color: #D3BCBE;
+  color: #6F2027;
   border-radius: 10px;
-  border: 3px solid #1b264f;
+  border: 3px solid #F2AF29;
   padding: 3px 4px 3px 4px;
   font-size: 30px;
+  cursor: pointer;
 }
 /*Header login and register link*/
 #header-login-link {
   position: absolute;
-  top: 25%;
+  top: 10%;
   right: 15px;
+  cursor: pointer;
 }
 /*Header about/info link*/
 #header-about-link {
   position: absolute;
-  top: 25%;
-  right: 245px;
+  top: 10%;
+  right: 140px;
+  cursor: pointer;
 }
 /*Header download link*/
 #header-download-link {
   position: absolute;
-  top: 25%;
-  right: 370px;
+  top: 10%;
+  right: 303px;
+  cursor: pointer;
 }
 
 /**************************BODY**************************/
 
 body {
-  background-color: #1b264f;
+  background-color: #D3BCBE;
   margin-top: 100px;
 }
 
 /*default buttons*/
 /*Default button in style*/
 .default-button {
-  background-color: #F5F3F5;
-  color: #302B27;
+  background-color: #D3BCBE;
+  color: #F2AF29;
   border-radius: 10px;
-  border: 3px solid #302B27;
+  border: 3px solid #F2AF29;
   padding: 2px 3px 2px 3px;
   font-size: 25px;
   font-weight: bold;
   transition: all 0.5s;
+  cursor: pointer;
 }
 /*Default button style hover*/
 .default-button:hover {
-  background-color: #1b264f;
-  color: #F5F3F5;
+  background-color: #6F2027;
+  color: #D3BCBE;
   border-radius: 10px;
-  border: 3px solid #1b264f;
+  border: 3px solid #D3BCBE;
   padding: 2px 3px 2px 3px;
   font-size: 30px;
+  cursor: pointer;
+}
+/*Default h1 style*/
+h1 {
+  color: #F2AF29;
+  background-color: #6F2027;
+  border: 3px solid #F2AF29;
+  border-radius: 10px;
 }
 
 /**************************FOOTER**************************/
@@ -99,21 +114,4 @@ body {
   color: #F5F3F5;
   font-family: Monaco, monospace;
   font-size: 20px;
-}
-
-.player {
-  vertical-align: middle;
-  background-color: #274690;
-  width: 96%;
-  left: 2%;
-  height: 70%;
-  top: 15%;
-  position: relative;
-  border: 2px solid white;
-}
-
-.player img {
-  height: 100%;
-  width: auto;
-  object-fit: cover;
 }

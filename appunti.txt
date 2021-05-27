@@ -1,0 +1,5 @@
+colori:
+giallo #f2af29
+rosso #ad343e
+bianco #f5f3f5
+giallognolo #E0E0EC

@@ -1,15 +1,15 @@
 /*Login form/box/container*/
 .login-form {
-  margin-top: 15%;
+  margin-top: 5%;
   text-align: center;
   /*vertical-align: middle;*/
   font-size: 25px;
-  background: #274690;
-  border: 5px solid #F5F3F5;
+  background: #6F2027;
+  border: 5px solid #F2AF29;
   border-radius: 15px;
   font-family: Monaco, monospace;
   width: 500px;
-  height: 500px;
+  height: 300px;
   box-sizing:border-box;
   -moz-box-sizing:border-box; /* Firefox */
   -webkit-box-sizing:border-box; /* Safari */
@@ -19,54 +19,65 @@
   width: 400px;
   height: auto;
 }
-/*Login box site logo*/
+/*Login box label*/
 .login-label {
-  background-color: #F5F3F5;
-  color: #302B27;
+  background-color: #D3BCBE;
+  color: #6F2027;
   border-radius: 10px;
-  border: 3px solid #302B27;
+  border: 3px solid #F2AF29;
   padding: 4px 5px 4px 5px;
+}
+/*Login username label adjust*/
+#username_login_label {
+  padding: 4px 19px 4px 19px;
 }
 /*Login box textbox/input*/
 .login-input {
-  background-color: #F5F3F5;
+  background-color: #D3BCBE;
   color: #302B27;
   border-radius: 10px;
-  border: 3px solid #302B27;
+  border: 3px solid #F2AF29;
   padding: 2px 3px 2px 3px;
   font-size: 25px;
 }
 /*Login/register button in form style*/
 .login-button {
-  background-color: #F5F3F5;
-  color: #302B27;
+  background-color: #6F2027;
+  color: #F2AF29;
   border-radius: 10px;
-  border: 3px solid #302B27;
+  border: 3px solid #F2AF29;
   padding: 2px 3px 2px 3px;
   font-size: 25px;
   font-weight: bold;
   transition: all 0.5s;
+  cursor: pointer;
 }
 /*Login/register button in form style hover*/
 .login-button:hover {
-  background-color: #1b264f;
-  color: #F5F3F5;
+  background-color: #D3BCBE;
+  color: #6F2027;
   border-radius: 10px;
-  border: 3px solid #1b264f;
+  border: 3px solid #F2AF29;
   padding: 2px 3px 2px 3px;
-  font-size: 25px;
+  font-size: 28px;
+  cursor: pointer;
 }
 /*login form password reset/forgot password link*/
 .password-reset-link {
-  color: #F5F3F5;
+  color: #F2AF29;
   font-size: 15px;
   padding: 4px 5px 4px 5px;
   transition: all 0.5s;
 }
 /*login form password reset/forgot password link hover*/
 .password-reset-link:hover {
-  color: #302B27;
-  font-size: 15px;
+  color: #D3BCBE;
+  font-size: 17px;
   font-weight: bold;
   padding: 4px 5px 4px 5px;
+}
+/*Warning login Label*/
+#warning-login {
+  width: 1200px;
+  padding: 3px 3px 3px 3px;
 }
